@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.menubar {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+.homeicon {
+    width: 155px;
+    height: 31px;
+    background: url("https://workablehr.s3.amazonaws.com/uploads/account/logo/28671/large_WOT_rectangle_med.png") center center;
+    float: left;
+    background-size: cover;
+    margin: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10;
+    overflow: hidden;
+    float: right;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: #6a787c;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: lato, sans-serif;
+    line-height: 40px;
+}
+
+li a:hover {
+    text-decoration: underline;
+    
+}
+.imagecontainer {
+    background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg") no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.textcontainer {
+    height: 296px;
+    width: 760px;
+    padding-top: 100px;
+    margin: auto;
+    font-family: Oswald;
+    line-height: 0px;
+}
+.center {
+    text-align: center;
+}
+.gray {
+    color: #6a787c;
+}
+.green {
+    color: #bdd436;
+}
+.white {
+    color: #fff;
+}
+.Oswald {
+    font-family: Oswald;
+}
+.Lato {
+    font-family: Lato;
+}
+.font18 {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.font36 {
+    font-size: 36px;
+}
+.font46 {
+    font-size: 46px;
+    color: #6a787c
+}
+.font155 {
+    font-size: 155px;
+    font-weight: 300;
+}
+hr {
+    width: 10vw;
+    display: inline-block;
+    height: 10px;
+    background: white;
+    font-size: 5;
+    float: left;
+}
+.right {
+    float: right;
+}
+.spacer {
+    padding: 50px 10px 10px 0;
+}
+.button {
+    background-color: #BDD436;
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.purpose {
+    background-color: #F0F0F0;
+    padding: 25px 10vw 25px 10vw;
+}
+.icon1 {
+    height: 75px;
+    width: 75px;
+    background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png");
+    background-position-x: -22px;
+    background-position-y: -113px;
+    margin: 20px auto 20px;
+}
+.iconcontainer {
+    width: 100%;
+    height: 70%;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+}
+.column {
+    width: 33%;
+    height: 100%;
+}
+.icon2 {
+    display: block;
+    height: 131px;
+    width: 140px;
+    background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png") no-repeat;
+    background-position-x: -300px;
+    background-position-y: -100px;
+    margin: 0 auto 27px auto;
+}
+.icon3 {
+    display: block;
+    height: 131px;
+    width: 100px;
+    background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png") no-repeat;
+    background-position-x: -210px;
+    background-position-y: -90px;
+    margin: 0 auto 27px auto;
+}
+.icon4 {
+    display: block;
+    height: 131px;
+    width: 120px;
+    background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png") no-repeat;
+    background-position-x: -105px;
+    background-position-y: -100px;
+    margin: 0 auto 27px auto;
+}
+.arrow {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png") no-repeat;
+    background-position-x: -40px;
+    background-position-y: -290px;
+    margin: 0 auto auto; 
+    bottom: 10px;
+}
+.border {
+    float: right;
+    height: 300PX;
+    border: 1px solid #d3d3d3;
+    margin:  50px 0;
+}
+.padding {
+    padding-top: 20px;
+}
+.height {
+    height: 40px;
+}
+@media only screen and (max-width: 990px) {
+    .iconcontainer {
+    display: block;
+    }
+    .column {
+        width: 100%;
+    }
+    .border {
+        display: none;
+    }
+}
